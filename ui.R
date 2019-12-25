@@ -51,6 +51,7 @@ shinyUI(fluidPage(
 
         # Show a plot of the generated distribution
         mainPanel(
+            h5("To use the application simply move the sliders check/uncheck boxes for the desired parameters. The plot will update accordingly."),
             plotlyOutput("distPlot")
         )
     )
